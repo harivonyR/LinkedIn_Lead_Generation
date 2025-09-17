@@ -8,7 +8,7 @@ This tool automates Google search queries and exports results in structured form
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/harivonyR/LeroyMerlyn_scraping
+git clone https://github.com/harivonyR/LinkedIn_Lead_Generation
 ```
 
 ### 2. Open the project folder
