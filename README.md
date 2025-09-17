@@ -32,7 +32,9 @@ x_api_key = "Paste your API key here !"
 pip install requests
 ```
 
-### 5. Run the scraper
+### 5. Run the Lead Generation
+This command will run a sample query for lead generation in the main script.
+> See 10 more sample in main.py
 ```bash
 python main.py
 ```
