@@ -38,10 +38,10 @@ query_experienced = 'site:linkedin.com/in ("Senior" OR "VP" OR "Vice President" 
 query_startup = 'site:linkedin.com/in "HR Manager" "Fortune 500"'
 
 ### 8 - Search by Education or Alumni (Graduates from Harvard, HEC, MIT, etc.)
-query = 'site:linkedin.com/in "MBA" "HEC Paris" "CEO"'
+query_alumni = 'site:linkedin.com/in "MBA" "HEC Paris" "CEO"'
 
 ### 9 - Search by Keywords in Bio or Posts (e.g., “AI Enthusiast”, “SaaS Expert”)
-query = 'site:linkedin.com/in "SaaS" "Growth Hacking"'
+query_bio = 'site:linkedin.com/in "SaaS" "Growth Hacking"'
 
 ### 10 - Combining Search Technique : role, industries, country, recruteur exclusion :
 query_combined = 'site:linkedin.com/in ("Marketing Director" OR "Head of Marketing") "SaaS" "Germany" -recruiter -jobs'
