@@ -1,2 +1,38 @@
 # LinkedInLeadGeneration
-🚀 LinkedInLeadGeneration is a Python project using Piloterr API that leverages Google Dorks to scrape and extract targeted LinkedIn profiles (CEOs, founders, decision-makers). Designed for lead generation, recruiting, and market intelligence, this tool automates Google search queries and exports results in structured formats (CSV/JSON).
+LinkedInLeadGeneration is a Python project using Piloterr API that leverages Google Dorks to scrape and extract specific LinkedIn Lead profiles (CEOs, founders, decision-makers). 
+Designed for lead generation, recruiting, and market intelligence.
+This tool automates Google search queries and exports results in structured formats (CSV/JSON).
+
+
+## Installation & Usage
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/harivonyR/LeroyMerlyn_scraping
+```
+
+### 2. Open the project folder
+```bash
+cd LinkedIn_Lead_Generation
+```
+
+### 3. Create your credential file
+Copy the example file:
+```bash
+copy credential.example.py credential.py
+```
+
+Open `credential.py` and paste your **PILOTERR API KEY**:
+```python
+x_api_key = "Paste your API key here !"
+```
+
+### 4. Install dependencies
+```bash
+pip install requests
+```
+
+### 5. Run the scraper
+```bash
+python main.py
+```
